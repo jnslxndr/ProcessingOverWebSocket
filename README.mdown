@@ -1,0 +1,34 @@
+WTF?
+====
+
+Broadcast the visual result of this sketch as a jpg image
+stream to a websocket. This is a rough proof of concept 
+and is not really ready  for easy use - but you can copy
+and paste parts of it. if it does not work or chrashes
+your machine, i am not responsible for that! ;)
+
+Oh! And you must have a browser, that supports WebSockets,
+e.g. Chrome, Chromium or Safari.
+
+It is based on the UDP streaming example from Daniel
+Shifman you can find here:
+
+http://www.shiffman.net/2010/11/13/streaming-video-with-udp-in-processing/
+
+For the WebSocketP5 functionality you need this library:
+http://p5.twelvebytes.net/websocketP5-0.1.2/
+
+***
+
+HOW TO SEE SOMETHING:
+----------------------
+
+1. make sure you have the above mentioned library
+2. run this sketch
+3. point your browser to http://localhost:8080
+4. be amazed and pay respect to the mystic digital things
+5. write interesting things with this!
+
+TATA!
+
+have fun! :)
