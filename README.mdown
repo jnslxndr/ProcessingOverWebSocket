@@ -16,7 +16,7 @@ Shifman you can find here:
 http://www.shiffman.net/2010/11/13/streaming-video-with-udp-in-processing/
 
 For the WebSocketP5 functionality you need this library:
-http://p5.twelvebytes.net/websocketP5-0.1.2/
+http://muthesius.github.io/WebSocketP5/websocketP5-0.1.4/
 
 ***
 
