@@ -3,16 +3,16 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title>Sockettester</title>
-		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-		
+		<script src="scripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+
 		<script type="text/javascript" charset="utf-8">
 			/// BEGIN SCRIPT
 			$(function(){
 				var ws = null;
-				var host = "192.168.178.24"
+				var host = "localhost"
 				var port = 8080
 				var socket = "p5websocket"
-			
+
 					console.log("trying to open a websocket")
 					var _socket = (undefined==socket)?"":"/"+socket
 					ws = new WebSocket("ws://"+host+":"+port+_socket)
@@ -26,7 +26,7 @@
 					ws.onerror = function (e) {
 					  console.log('WebSocket did close ',e);
 					};
-				
+
 					// Log errors
 					ws.onerror = function (error) {
 					  console.log('WebSocket Error ' + error);
@@ -38,7 +38,7 @@
 						document['target'].src = e.data;
 					};
 			});
-			
+
 		</script>
 	</head>
 	<body>
@@ -46,7 +46,7 @@
 			<img name=target />
 		</div>
 		<div id="log">
-			
+
 		</div>
 	</body>
 	</html>
