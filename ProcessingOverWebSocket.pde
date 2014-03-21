@@ -37,6 +37,7 @@ import org.webbitserver.*;
 // For image compression
 import javax.imageio.*;
 import java.awt.image.*; 
+import java.io.*;
 
 // For Base64
 import org.apache.commons.codec.binary.*;
@@ -106,4 +107,3 @@ void broadcastOutput() {
     e.printStackTrace();
   }
 }
-
